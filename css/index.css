@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+* {
+    font-family: "Roboto Slab"
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab"
+}
+
+.title{
+    text-align: center;
+    display: block;
+    color: whitesmoke;
+}
+
+.me {
+    border-top: 0px;
+    border-bottom: 0px;
+    display: block;
+}
+
+.logo{
+    height: 20px;
+    width: 20px;
+}
+
+.experience table{
+    width: 100%;
+    display: inline;
+    text-align: center;
+    border-spacing: 20px;
+}
+
+.experience table tr th{   
+    width: 33%;
+    text-align: center;
+    color: #333;
+    border-radius: 10px;
+}
+
+.experience table tr th img{
+    height: 100px;
+    width: 100px;
+}
+
+.experience table tr td{
+    width: 33%;
+    text-align: center;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
